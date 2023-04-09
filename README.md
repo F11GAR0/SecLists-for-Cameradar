@@ -8,24 +8,24 @@ python push.py <-f(ront),-b(ack)> credentials.json Username Password
 ```
 
 ### Example what's going on:
-** usernames.txt **
+> usernames.txt
 ```
 admin
 root
 ```
-** passwords.txt **
+> passwords.txt
 ```
 admin
 qwerty12345
 toor
 root
 ```
-** Enterning command: **
+> Enterning command:
 ```
 python transform.py usernames.txt passwords.txt outcredentials.json
 ```
 
-** outcredentials.json **
+> outcredentials.json
 ```
 {
     "usernames":
