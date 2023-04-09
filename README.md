@@ -5,6 +5,7 @@
 ```
 python transform.py usernames.txt passwords.txt outcredentials.json
 python push.py <-f(ront),-b(ack)> credentials.json Username Password
+python create.py credentials.json
 ```
 
 ### Example what's going on:

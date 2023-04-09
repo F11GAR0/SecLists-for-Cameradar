@@ -35,4 +35,4 @@ if __name__ == "__main__":
         else:
             print(f"Unknown option {sys.argv[1]}.")
     else:
-        print("Not enough arguments.")
+        print("Not enough arguments. (python push.py <-f(ront),-b(ack)> <credentials.json> <Username> <Password>)")

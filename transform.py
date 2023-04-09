@@ -24,3 +24,5 @@ def main(usernames_file, passwords_file, output_file):
 if __name__ == "__main__":
     if len(sys.argv) > 3:
         main(sys.argv[1], sys.argv[2], sys.argv[3])
+    else:
+        print("Not enough arguments. (python transform.py <usernames.txt> <passwords.txt> <outcredentials.json>")
